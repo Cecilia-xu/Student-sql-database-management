@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Welome to INFSCI 2710
+	</title>
+</head>
+<body>
+	Add new student:<br>
+	<br>
+	<form action="addStudent.php" method="post">
+		ID: <input type="text" name="ID"><br>
+		Name: <input type="text" name="name"><br>
+		Department:
+		<select name="dept_name">
+			<option value="Comp. Sci.">Comp. Sci.</option>
+			<option value="History">History</option>
+			<option value="Finance">Finance</option>
+			<option value="Physics">Physics</option>
+			<option value="Music">Music</option>
+			<option value="Elec. Eng.">Elec. Eng.</option>
+			<option value="Biology">Biology</option>
+		</select><br>
+		Credit: <input type="number" name="tot_cred"><br>
+		<input type="submit" value="Submit"/>
+	</form>
+
+</body>
+</html>
